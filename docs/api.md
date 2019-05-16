@@ -24,7 +24,7 @@ Name           | Description
 :------------- |:----------------------------------
 access_token          | access_token obtenido en el metodo login           
 
-## POSTS
+## Listado de POSTS
 ```
 https://api.dev.graphs.social/v4/graphs
 ```
@@ -32,13 +32,14 @@ https://api.dev.graphs.social/v4/graphs
 Name           | Description                       
 :------------- |:----------------------------------
 containers_ids | 5c6f0eff3039354935b3553a
-entities_ids   | 23
+entities_ids   | 14,23,48,49,50,51 // se pasan estos ids separados por coma
 limit          | 30 // Numero de registros por pagina
 next           | valor _time_updated_ del ultimo registro de la pagina anterior
 
  
 > **Nota**: La api devuelve una estructura con dos entradas dentro de "data". _entries_
-que contiene unicamente los ids obtenidos y _data_ que contiene la información
+que contiene unicamente los ids obtenidos como key y el _time_updated_ del item como valor, para validar si está
+actualizado y _data_ que contiene la información
 de cada _entry_  retornado. la información de los posts se encuentra en
 el objeto **document**. El valor _time_updated_ esta en cada item del arreglo "data"
  
