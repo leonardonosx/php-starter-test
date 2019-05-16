@@ -24,7 +24,7 @@ el listado de articulos desde la cache.
 ### Puntos de interes
 
   - Realizar fork de este repositorio y subir la prueba en un repositorio propio en github.  
-  - Se deberá desarrollar una clase que permita realizar las multiples solicitudes a la API (metodos GET y POST).
+  - Se deberá desarrollar una clase que permita realizar las multiples solicitudes a la API (metodos GET, POST, PUT y DELETE).
   - Se debe hacer uso de sesiones.
   - Se tendrá en cuenta la limpieza del código.
   - Se tendrán en cuenta las validaciones
