@@ -37,11 +37,11 @@ limit          | 30 // Numero de registros por pagina
 next           | valor _time_updated_ del ultimo registro de la pagina anterior
 
  
-> **Nota**: La api devuelve un objeto con dos valores, "status" y "data" en `data.entries`
-se retornan unicamente los ids obtenidos como key y el _time_updated_ del item como valor, para validar si está
-actualizado y `data.data` contiene la información
-de cada _entry_  retornado. la información de los posts se encuentra en
-el objeto **document**. El valor _time_updated_ esta en cada item del arreglo "data"
+> **Nota**: La api devuelve un objeto con dos valores, "status" y "data"m=, en `data.entries`
+se devuelve un objeto cons los _ids_  y el valor  _time_updated_ del item para validar si está
+actualizado. `data.data` contiene la información
+de cada _entry_  retornado. La información de los posts se encuentra en
+el objeto **document** y el valor _time_updated_  tambien se encuentra en cada item del arreglo "data"
  
  Ejemplo:
  ```
