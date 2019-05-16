@@ -86,6 +86,28 @@ container_id         | graphId del usuario // 5c6f1b403039354a6d865be2
 title                | Titulo del post a crear
 description          | Contenido tipo texto a agregar al post.        
 
+### Modificar un grafo
+```angular2html
+https://api.[dev.]graphs.social/v3/graphs/
+```
+METODO: PUT
+#### PARAMETROS
+Name                 |Description                                          
+:--------------------|:----------------------------------------------------
+access_token         |access_token obtenido en el login del usuario
+[CAMPOS A EDITAR] // el id no es editable.
+
+
+### Eliminar un grafo
+```angular2html
+https://api.[dev.]graphs.social/v3/graphs/
+```
+METODO: DELETE
+#### PARAMETROS
+Name                 |Description                                          
+:--------------------|:----------------------------------------------------
+access_token         |access_token obtenido en el login del usuario
+
 
 
 
