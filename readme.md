@@ -8,8 +8,8 @@ Se debe realizar una aplicación que permita a un usuario:
 - Iniciar sesión
 - Ver un listado de posts
 - Crear nuevos posts
-- modificar posts
-- eliminar posts
+- Modificar posts
+- Eliminar posts
 - Cerrar sesíón.
 
 Todas las acciones deberán realizarse por medio de consultas a una API y es requerido implementar 
