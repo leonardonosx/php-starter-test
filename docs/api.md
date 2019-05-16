@@ -1,6 +1,6 @@
 # API
 
-##LOGIN
+## LOGIN
 ```
 https[s]://auth.dev.graphs.social/v3/login
 ```
@@ -13,13 +13,13 @@ email          | testing_user1@emailna.co
 password       | Testing1          
 application_id | 5b51eb29303935456453d09a
 
-##LOGOUT
+## LOGOUT
 ```
 https[s]://auth.dev.graphs.social/v3/logout
 ```
 METHOD: GET
 
-####PARAMETROS
+#### PARAMETROS
 Name           | Description                       
 :------------- |:----------------------------------
 access_token          | access_token obtenido en el metodo login           
@@ -58,9 +58,7 @@ el objeto **document**. El valor _time_updated_ esta en cada item del arreglo "d
 https://api.[dev.]graphs.social/v3/graphs/
 ```
 METODO: POST
-
-### Parameters
-#### POST Parameters
+#### PARAMETROS
 Name                 |Description                                          
 :--------------------|:----------------------------------------------------
 access_token         |access_token obtenido en el login del usuario
