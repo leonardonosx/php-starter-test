@@ -15,7 +15,7 @@ application_id | 5b51eb29303935456453d09a
 
 ## LOGOUT
 ```
-https[s]://auth.dev.graphs.social/v3/logout
+https[s]://auth.dev.graphs.social/v3/login/logout
 ```
 METHOD: GET
 
@@ -74,7 +74,7 @@ el objeto **document** y el valor _time_updated_  tambien se encuentra en cada i
 
 ### Crear Grafo
 ```angular2html
-https://api.[dev.]graphs.social/v3/graphs/
+https://api.[dev.]graphs.social/v4/graphs/
 ```
 METODO: POST
 #### PARAMETROS
