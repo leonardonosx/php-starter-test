@@ -9,13 +9,13 @@ METHOD: GET
 #### PARAMETROS
 Name           | Description                       
 :------------- |:----------------------------------
-email          | testing_user1@emailna.co 
-password       | Testing1          
+email          | arkos10@emailna.co 
+password       | Admin01          
 application_id | 5b51eb29303935456453d09a
 
 ## LOGOUT
 ```
-https[s]://auth.dev.graphs.social/v3/login/logout
+https[s]://auth.dev.graphs.social/v4/login/logout
 ```
 METHOD: GET
 
@@ -88,7 +88,7 @@ description          | Contenido tipo texto a agregar al post.
 
 ### Modificar un grafo
 ```angular2html
-https://api.[dev.]graphs.social/v3/graphs/
+https://api.[dev.]graphs.social/v4/graphs/
 ```
 METODO: PUT
 #### PARAMETROS
@@ -100,7 +100,7 @@ access_token         |access_token obtenido en el login del usuario
 
 ### Eliminar un grafo
 ```angular2html
-https://api.[dev.]graphs.social/v3/graphs/
+https://api.[dev.]graphs.social/v4/graphs/
 ```
 METODO: DELETE
 #### PARAMETROS
