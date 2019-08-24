@@ -82,7 +82,7 @@ Name                 |Description
 :--------------------|:----------------------------------------------------
 access_token         |access_token obtenido en el login del usuario
 entity               | post
-container_id         | graphId del usuario // 5c6f1b403039354a6d865be2           
+container_id         | graphId del usuario // 5d0051fc3039353ff68410e8           
 title                | Titulo del post a crear
 description          | Contenido tipo texto a agregar al post.        
 
