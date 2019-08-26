@@ -88,7 +88,7 @@ description          | Contenido tipo texto a agregar al post.
 
 ### Modificar un grafo
 ```angular2html
-https://api.[dev.]graphs.social/v4/graphs/
+https://api.[dev.]graphs.social/v4/graphs/[graphId]
 ```
 METODO: PUT
 #### PARAMETROS
@@ -97,10 +97,10 @@ Name                 |Description
 access_token         |access_token obtenido en el login del usuario
 [CAMPOS A EDITAR] // el id no es editable.
 
-
+Nota: "graphId" es el id del grafo seleccionado a editar
 ### Eliminar un grafo
 ```angular2html
-https://api.[dev.]graphs.social/v4/graphs/
+https://api.[dev.]graphs.social/v4/graphs/[graphId]
 ```
 METODO: DELETE
 #### PARAMETROS
