@@ -2,7 +2,8 @@
 
 ## LOGIN
 ```
-https[s]://auth.dev.graphs.social/v3/login
+https[s]://auth.dev.graphs.social/v4/login
+// NOTA: "v4" es la version, usar v4 en todas las urls.
 ```
 METHOD: GET
 
@@ -31,7 +32,7 @@ https://api.dev.graphs.social/v4/graphs
 
 Name           | Description                       
 :------------- |:----------------------------------
-containers_ids | 5c6f0eff3039354935b3553a
+containers_ids | 5d0051fc3039353ff68410e8
 entities_ids   | 14,23,48,49,50,51 // se pasan estos ids separados por coma
 limit          | 30 // Numero de registros por pagina
 next           | valor _time_updated_ del ultimo registro de la pagina anterior
@@ -100,7 +101,7 @@ access_token         |access_token obtenido en el login del usuario
 Nota: "graphId" es el id del grafo seleccionado a editar
 ### Eliminar un grafo
 ```angular2html
-https://api.[dev.]graphs.social/v4/graphs/[graphId]
+https://api.dev.graphs.social/v4/graphs/[graphId]
 ```
 METODO: DELETE
 #### PARAMETROS
