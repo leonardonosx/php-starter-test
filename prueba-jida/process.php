@@ -1,7 +1,7 @@
 <?php
-	//Cabeceras
 	//Inicio de session
 	session_start();
+	//Cabeceras
 	header("Access-Control-Allow-Origin: *");
 	header("Content-Type: application/json; charset=UTF-8");
 	header("Content-Type: text/html; charset=utf-8");
@@ -45,6 +45,7 @@
 		<a href="/prueba-jida/agregar.php?token=<?php echo $token; ?>"> Crear</a>
 		<a href="#"> Editar </a>
 		<a href="#"> Eliminar </a>
+		<a href="/prueba-jida/cerrar_session.php"> Cerrar Session </a>
 	</div>
 </div>	
 
@@ -54,7 +55,7 @@
 	$publicaciones = file_get_contents($post);
 	$post_array = json_decode($publicaciones, true);
 	//print_r($post_array);
-	
+
 	
 	foreach ($post_array as $p_array ) { 
 			//print_r($p_array);
@@ -75,6 +76,6 @@
 					}
 				}
 			}
-		}    
-	}   		    	
+		}   
+	}  		    	
 ?>
